@@ -1,0 +1,2 @@
+# PSReader Swift Package
+
