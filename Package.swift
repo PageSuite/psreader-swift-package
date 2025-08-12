@@ -11,19 +11,19 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/pdftron/pdftron-swift-package.git",
-            exact: "11.5.85515"
+            exact: "11.6.85755"
         )
     ],
     targets: [
         .binaryTarget(
             name: "PSReaderBinary",
-            url: "https://pagesuite-builds.s3.eu-west-1.amazonaws.com/spm/psreader/5.1.1/PSReader.xcframework.zip",
-            checksum: "2d5f622d7e67be45edc3820c6a2e7767fae2158854a81e3f3c08f1d5071a92a2"
+            url: "https://pagesuite-builds.s3.eu-west-1.amazonaws.com/spm/psreader/5.2.0/PSReader.xcframework.zip",
+            checksum: "62bc373c45cc2734b9464ddcbbdbd6b238e22f7072e71d2880d796d445105866"
         ),
         .binaryTarget(
             name: "PSReaderUIBinary",
-            url: "https://pagesuite-builds.s3.eu-west-1.amazonaws.com/spm/psreader-ui/5.1.1/PSReaderUI.xcframework.zip",
-            checksum: "7d1bd745d953cbde3ca0dc921e48dc8a834d38ab24db0a0aebf0d7f7f44113c6"
+            url: "https://pagesuite-builds.s3.eu-west-1.amazonaws.com/spm/psreader-ui/5.2.0/PSReaderUI.xcframework.zip",
+            checksum: "945b86e63c2f76ab15f32e375f7531ff21f8f6ac696d13b704e2735790a48cc3"
         ),
         .target(
             name: "PSReaderSDK",
