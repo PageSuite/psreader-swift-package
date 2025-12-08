@@ -11,7 +11,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/pdftron/pdftron-swift-package.git",
-            exact: "11.6.85755"
+            exact: "11.5.85515"
         )
     ],
     targets: [
