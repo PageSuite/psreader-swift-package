@@ -17,13 +17,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PSReaderBinary",
-            url: "https://pagesuite-builds.s3.eu-west-1.amazonaws.com/spm/psreader/26.4.1/PSReader.xcframework.zip",
-            checksum: "f94e9e682a3293ff88ab458a49f9e31b90c30c22929bfc19da714ec7911a8bad"
+            url: "https://pagesuite-builds.s3.eu-west-1.amazonaws.com/spm/psreader/26.4.2/PSReader.xcframework.zip",
+            checksum: "fc29d02ea1e9c5ef49a1b1300f7254107f48bf560d0ec9f6443c21726decbfcf"
         ),
         .binaryTarget(
             name: "PSReaderUIBinary",
-            url: "https://pagesuite-builds.s3.eu-west-1.amazonaws.com/spm/psreader-ui/26.4.1/PSReaderUI.xcframework.zip",
-            checksum: "c27768ebac94c05f102336e807b963637a606c52b95f9f868f3d444a8bed499b"
+            url: "https://pagesuite-builds.s3.eu-west-1.amazonaws.com/spm/psreader-ui/26.4.2/PSReaderUI.xcframework.zip",
+            checksum: "f973bc540b0be5f6d78ac6094a1962b08b34da56dab12c48fe73e2868ba2b36b"
         ),
         .target(
             name: "PSReaderSDK",
